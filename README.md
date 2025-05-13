@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# Interactive Pricing Component
+
+A responsive pricing component with interactive slider built with Next.js and Tailwind CSS.
+
+![Interactive Pricing Component Screenshot](./public/task%20taknet.png)
+
+## Features
+
+- Interactive slider
+- Dynamic pricing based on selected page views
+- Toggle between monthly and yearly billing (25% discount for yearly)
+- Responsive design that works on all device sizes
+- Hover states for all interactive elements
+- Clean, modern UI with smooth animations
+
+## Built With
+
+- [Next.js 15](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- TypeScript - For type safety
+- Mobile-first workflow
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v18 or later recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/aliehs74/price-slider-card.git
+```
+
+2. Install dependencies:
+```bash
+cd taknet-task
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+interactive-pricing-component/
+├── src/
+│   ├── app/
+│   │   ├── globals.css       # Global CSS styles
+│   │   ├── page.tsx          # Main page component
+│   │   └── layout.tsx        # Main layout
+│   └── components/
+│       ├── PricingCard.tsx   # Pricing card component
+│       ├── Options.tsx       # Option component
+│       ├── Slider.tsx        # Slider component
+│       └── Switcher.tsx      # Switcher component
+│   
+├── public/                   # Static files
+├── tsconfig.json             # TypeScript configuration
+└── package.json              # Project dependencies
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `dev`: Runs the development server
+- `build`: Creates an optimized production build
+- `start`: Starts the production server
+- `lint`: Runs ESLint
+- `format`: Formats code with Prettier
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please open an issue or submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
