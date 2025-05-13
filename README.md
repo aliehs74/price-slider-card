@@ -1,4 +1,3 @@
-```markdown
 # Interactive Pricing Component
 
 A responsive pricing component with interactive slider built with Next.js and Tailwind CSS.
@@ -31,23 +30,29 @@ A responsive pricing component with interactive slider built with Next.js and Ta
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/aliehs74/price-slider-card.git
+
 ```
 
 2. Install dependencies:
+
 ```bash
 cd taknet-task
 npm install
 # or
 yarn install
+
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 # or
 yarn dev
+
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -79,10 +84,7 @@ interactive-pricing-component/
 - `build`: Creates an optimized production build
 - `start`: Starts the production server
 - `lint`: Runs ESLint
-- `format`: Formats code with Prettier
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-
-```
